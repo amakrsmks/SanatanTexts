@@ -24,3 +24,4 @@ dependencyResolutionManagement {
 
 rootProject.name = "Sanatan Texts"
 include(":app")
+include(":raw-data-processor")
