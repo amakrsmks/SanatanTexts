@@ -1,6 +1,6 @@
-package com.amakrsmks.sanatangranth.data.repository
+package com.amakrsmks.sanatangranth.repository
 
-import com.amakrsmks.sanatangranth.data.dao.VerseDao
+import com.amakrsmks.sanatangranth.dao.VerseDao
 import javax.inject.Inject
 
 class VerseRepository @Inject constructor(

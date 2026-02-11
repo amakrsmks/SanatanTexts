@@ -2,8 +2,8 @@ package com.amakrsmks.sanatangranth.di
 
 import android.content.Context
 import androidx.room.Room
-import com.amakrsmks.sanatangranth.data.AppDatabase
-import com.amakrsmks.sanatangranth.data.dao.VerseDao
+import com.amakrsmks.sanatangranth.AppDatabase
+import com.amakrsmks.sanatangranth.dao.VerseDao
 import dagger.Module
 import dagger.Provides
 import dagger.hilt.InstallIn

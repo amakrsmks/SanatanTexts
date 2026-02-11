@@ -1,8 +1,8 @@
-package com.amakrsmks.sanatangranth.data.dao
+package com.amakrsmks.sanatangranth.dao
 
 import androidx.room.Dao
 import androidx.room.Query
-import com.amakrsmks.sanatangranth.data.entity.Verse
+import com.amakrsmks.sanatangranth.entity.Verse
 
 @Dao
 interface VerseDao {

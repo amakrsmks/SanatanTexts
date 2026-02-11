@@ -6,12 +6,14 @@ activityCompose = "1.12.3"
 kotlin = "2.3.10"
 composeBom = "2026.01.01"
 ksp = "2.3.4"
+materialIconsExtended = "1.7.8"
 room = "2.8.4"
 hilt = "2.59.1"
 serialization = "1.10.0"
 jetbrainsKotlinJvm = "2.3.10"
 
 [libraries]
+androidx-compose-material-icons-extended = { module = "androidx.compose.material:material-icons-extended", version.ref = "materialIconsExtended" }
 androidx-core-ktx = { group = "androidx.core", name = "core-ktx", version.ref = "coreKtx" }
 androidx-lifecycle-runtime-ktx = { group = "androidx.lifecycle", name = "lifecycle-runtime-ktx", version.ref = "lifecycleRuntimeKtx" }
 androidx-activity-compose = { group = "androidx.activity", name = "activity-compose", version.ref = "activityCompose" }
